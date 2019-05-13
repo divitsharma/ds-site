@@ -17,3 +17,9 @@ section:nth-child(even) {
     border-bottom: 1px solid rgb(15, 15, 15);
     margin: 2rem 0;
 }
+
+@media screen and (max-width: 1100px) {
+    .content {
+        padding-left: 3rem;
+    }
+}

@@ -25,10 +25,10 @@ body::-webkit-scrollbar {
     
     display: grid;
     grid-template-rows: 32.5vh 1fr;
-    grid-template-columns: 6rem 1fr;
+    grid-template-columns: 3rem auto 1fr;
     grid-template-areas:
-        "hello hello"
-        "iam iam";
+        "hello hello hello"
+        "iam iam iam";
 
     position: absolute;
     margin: auto;
@@ -70,8 +70,8 @@ p {
         width: 100%;
 
         grid-template-areas:
-            "hello iam"
-            "space space";
+            "spaceleft hello iam"
+            "space space space";
         
         h1 {
             text-align: left;
@@ -79,9 +79,6 @@ p {
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
             margin-left: 0.5rem;
-        }
-        h3 {
-            text-align: right;
         }
     }
 }
