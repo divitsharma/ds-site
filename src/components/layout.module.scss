@@ -1,0 +1,19 @@
+section {
+    height: 100vh;
+}
+section:nth-child(even) {
+    background: rgb(255, 13, 13);
+}
+.content {
+    margin: 0 auto;
+    max-width: 960px;
+    height: 100%;
+
+    padding: 32.5vh 0 0 6rem;
+}
+
+.rule {
+    width: 100px;
+    border-bottom: 1px solid rgb(15, 15, 15);
+    margin: 2rem 0;
+}
