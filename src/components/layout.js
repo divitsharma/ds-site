@@ -25,9 +25,9 @@ const Layout = ({ children, sectionTitle }) => {
     //     }
     // `)
     
-    document.documentElement.style.setProperty('--mobileFull', `${window.innerHeight}px`);
+    var styleHeight = `${window.innerHeight}px`
     return (
-        <section>
+        <section style={{height: styleHeight}}>
             <div className={layoutStyles.content}>
                 <Header title={sectionTitle} />
                 <div className={layoutStyles.rule}></div>
