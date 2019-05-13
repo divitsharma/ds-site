@@ -13,6 +13,13 @@ import Header from "../components/header"
 
 import layoutStyles from "./layout.module.scss"
 
+function CalcVH() {
+    var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    // styleHeight = vH + "px";
+    // document.getElementById("top").setAttribute("style", "height:" + vH + "px");
+}
+
 const Layout = ({ children, sectionTitle }) => {
 
     // const data = useStaticQuery(graphql`
@@ -26,11 +33,19 @@ const Layout = ({ children, sectionTitle }) => {
     // `)
     
     var styleHeight = '100vh'
-    if (typeof window !== 'undefined') {
-        styleHeight = `${window.innerHeight}px`
+    if (typeof document !== 'undefined') {
+        
+        CalcVH()
+        // var mq = window.matchMedia("(max-width: 768)");
+        // if (mq.matches) {
+        //     CalcVH();
+        //     window.addEventListener('onorientationchange', CalcVH, true);
+        // }
+
+        // styleHeight = `${window.innerHeight}px`
     }
     return (
-        <section style={{height: styleHeight}}>
+        <section /*style={{height: styleHeight}}*/>
             <div className={layoutStyles.content}>
                 <Header title={sectionTitle} />
                 <div className={layoutStyles.rule}></div>

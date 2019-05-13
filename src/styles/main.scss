@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
     // grid-area: stickyiam;
     
     display: grid;
-    grid-template-rows: 32.5vh 1fr;
+    grid-template-rows: 32.5% 1fr;
     grid-template-columns: 3rem auto 1fr;
     grid-template-areas:
         "hello hello hello"
@@ -66,12 +66,12 @@ p {
     .sticky {
         top: 0;
         right: 0;
-        height: 30vh;
+        height: 20vh;
         width: 100%;
 
         grid-template-areas:
-            "spaceleft hello iam"
-            "space space space";
+            "space space space"
+            "spaceleft hello iam";
         
         h1 {
             text-align: left;
