@@ -24,7 +24,8 @@ const Layout = ({ children, sectionTitle }) => {
     //         }
     //     }
     // `)
-
+    
+    document.documentElement.style.setProperty('--mobileFull', `${window.innerHeight}px`);
     return (
         <section>
             <div className={layoutStyles.content}>
