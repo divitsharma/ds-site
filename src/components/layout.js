@@ -25,7 +25,10 @@ const Layout = ({ children, sectionTitle }) => {
     //     }
     // `)
     
-    var styleHeight = `${window.innerHeight}px`
+    var styleHeight = '100vh'
+    if (typeof window !== 'undefined') {
+        styleHeight = `${window.innerHeight}px`
+    }
     return (
         <section style={{height: styleHeight}}>
             <div className={layoutStyles.content}>
