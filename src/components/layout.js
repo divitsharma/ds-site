@@ -36,10 +36,9 @@ const Layout = ({ children, sectionTitle }) => {
     if (typeof document !== 'undefined') {
         
         CalcVH()
-        // var mq = window.matchMedia("(max-width: 768)");
+        // var mq = window.matchMedia("(max-width: 1100px)");
         // if (mq.matches) {
-        //     CalcVH();
-        //     window.addEventListener('onorientationchange', CalcVH, true);
+            window.addEventListener('resize', CalcVH, true);
         // }
 
         // styleHeight = `${window.innerHeight}px`
