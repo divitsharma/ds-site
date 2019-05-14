@@ -16,7 +16,7 @@ function ScrollPage(e) {
 const ScrollButton = ({className}) => {
     return (
         <a className={className + ' ' + scrollStyles.scrollButton} onClick={ScrollPage}>
-            Next Page
+            NEXT PAGE
         </a>
     )
 }

@@ -20,7 +20,7 @@ function CalcVH() {
     // document.getElementById("top").setAttribute("style", "height:" + vH + "px");
 }
 
-const Layout = ({ children, sectionTitle }) => {
+const Layout = ({ children, sectionTitle, id }) => {
 
     // const data = useStaticQuery(graphql`
     //     query {
@@ -44,7 +44,7 @@ const Layout = ({ children, sectionTitle }) => {
         // styleHeight = `${window.innerHeight}px`
     }
     return (
-        <section /*style={{height: styleHeight}}*/>
+        <section id={id} /*style={{height: styleHeight}}*/>
             <div className={layoutStyles.content}>
                 <Header title={sectionTitle} />
                 <div className={layoutStyles.rule}></div>
