@@ -30,7 +30,12 @@ const IndexPage = () => (
             </div> */}
                 <p>I’m a software developer and designer currently studying Computer Science at the University of Waterloo.</p>
                 {/* <br/> */}
-                <p>I'm also a big visual arts and design fanatic, and play cricket and badminton.</p>
+                <p className="extraInfo">I'm also a big visual arts and design fanatic, and play cricket and badminton.</p>
+                <div className="links">
+                    <a href="https://www.github.com/divitsharma" className="github" />
+                    <a href="https://www.behance.net/divitsharma" className="behance" />
+                    <a href="https://www.github.com/divitsharma" className="resume">RESUME</a>
+                </div>
             </Layout>
 
             <Layout sectionTitle="a developer.">
@@ -40,7 +45,7 @@ const IndexPage = () => (
             <Layout sectionTitle="an artist.">
             </Layout>
 
-            <Layout sectionTitle="available at.">
+            <Layout sectionTitle="available at">
             </Layout>
 
             <footer>

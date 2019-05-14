@@ -21,34 +21,19 @@ function CalcVH() {
 }
 
 const Layout = ({ children, sectionTitle, id }) => {
-
-    // const data = useStaticQuery(graphql`
-    //     query {
-    //         site {
-    //             siteMetadata {
-    //                 title
-    //             }
-    //         }
-    //     }
-    // `)
     
     var styleHeight = '100vh'
     if (typeof document !== 'undefined') {
-        
         CalcVH()
-        // var mq = window.matchMedia("(max-width: 1100px)");
-        // if (mq.matches) {
-            window.addEventListener('resize', CalcVH, true);
-        // }
-
-        // styleHeight = `${window.innerHeight}px`
+        window.addEventListener('resize', CalcVH, true);
     }
     return (
-        <section id={id} /*style={{height: styleHeight}}*/>
+        <section id={id}>
             <div className={layoutStyles.content}>
                 <Header title={sectionTitle} />
                 <div className={layoutStyles.rule}></div>
                 {children}
+                
             </div>
         </section>
     )
