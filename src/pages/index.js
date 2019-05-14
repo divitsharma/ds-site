@@ -3,18 +3,23 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import ScrollButton from "../components/scrollbutton"
 
 // css
 import "../styles/index.css"
 import "../styles/main.scss"
 
 const IndexPage = () => (
-    <main>
+    <main id="main">
         <SEO title="Home" keywords={[`divit`, `sharma`, `divit sharma`]} />
         <div className="sticky">
             <h3>Hello,</h3>
             <h1>I am</h1>
         </div>
+        
+        <ScrollButton className="scrollButton">
+
+        </ScrollButton>
 
         <div className="layouts">
             <Layout sectionTitle="Divit Sharma.">
