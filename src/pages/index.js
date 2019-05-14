@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import ScrollButton from "../components/scrollbutton"
+import HomeButton from "../components/homebutton"
 
 // css
 import "../styles/index.css"
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <main id="main">
         <SEO title="Home" keywords={[`divit`, `sharma`, `divit sharma`]} />
         <div className="sticky">
+            <HomeButton></HomeButton>
             <h3>Hello,</h3>
             <h1>I am</h1>
         </div>
@@ -22,14 +24,14 @@ const IndexPage = () => (
         </ScrollButton>
 
         <div className="layouts">
-            <Layout sectionTitle="Divit Sharma.">
+            <Layout sectionTitle="Divit Sharma." id="top">
                 {/* <Header title={"Divit Sharma"} /> */}
                 {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
                 <Image />
             </div> */}
-                <p>I’m an aspiring software developer and designer currently studying Computer Science at the University of Waterloo.</p>
+                <p>I’m a software developer and designer currently studying Computer Science at the University of Waterloo.</p>
                 {/* <br/> */}
-                <p>Away from school, I'm a big visual arts and design fanatic, and play cricket and badminton.</p>
+                <p>I'm also a big visual arts and design fanatic, and play cricket and badminton.</p>
             </Layout>
 
             <Layout sectionTitle="a developer.">

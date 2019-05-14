@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 .sticky {
     width: max-content;
     height: 100vh;
-    color: lightgray;
+    color: black;
     // grid-area: stickyiam;
     
     display: grid;
@@ -37,20 +37,36 @@ body::-webkit-scrollbar {
     top: 0;
     
     h1 {
+        opacity: 0.3;
         text-align: right;
         font-size: 4rem;
         grid-area: iam;
     }
     h3 {
+        opacity: 0.3;
         grid-area: hello;
         align-self: end;
         margin-bottom: 0.5rem;
+    }
+    a {
+        grid-area: hello;
+        width: 100%;
+        margin-top: 4rem;
     }
 }
 
 section {
     scroll-snap-align: start;
     scroll-snap-stop: always;
+}
+section:nth-child(1) {
+    // background: url("../images/Mod3_d_sharma3.png");
+    // background-position: bottom;
+    // background-position-y: 4rem;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    background: rgb(235, 239, 245);
+    border: 2rem white solid;
 }
 .layouts {
     grid-column: 1/4;
@@ -68,7 +84,7 @@ p {
     margin-right: auto;
     left: 0;
     right: 0;
-    bottom: 4rem;
+    bottom: 2rem;
 }
 
 @media screen and (max-width: 1100px) {
@@ -89,5 +105,12 @@ p {
             margin-bottom: 0.5rem;
             margin-left: 0.5rem;
         }
+        a {
+            margin-top: 0;
+        }
+    }
+
+    p {
+        max-width: 75%;
     }
 }
