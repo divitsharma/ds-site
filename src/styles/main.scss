@@ -83,6 +83,7 @@ section, .devBackground {
     }
 }
 .devBackground {
+    height: var(--vh);
     background: hsla(160, 84%, 49%, 1);
     // height: 100%;
     // width: 100%;
@@ -94,6 +95,7 @@ section, .devBackground {
     }
 }
 .artistBackground {
+    height: var(--vh);
     background: #d2dae2;
 }
 
@@ -154,6 +156,9 @@ section, .devBackground {
             margin-bottom: 0.5rem;
             margin-left: 0.5rem;
             font-size: 1.5rem;
+        }
+        header h1 {
+            font-size: 2rem;
         }
         a {
             margin-top: 0;
