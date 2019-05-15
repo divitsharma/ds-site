@@ -1,11 +1,4 @@
 main {
-    // display: grid;
-    // grid-template-columns: 1fr 800px 1fr;
-    // grid-template-rows: 25vh 1fr;
-    // grid-template-areas:
-    //     "topleft" "stickyiam" "topright"
-    //     "bottom" "bottom" "bottom";
-    
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
@@ -15,6 +8,9 @@ main::-webkit-scrollbar {
 }
 body::-webkit-scrollbar {
     width: 0 !important;
+}
+p {
+    max-width: 60%;
 }
 
 .sticky {
@@ -55,22 +51,21 @@ body::-webkit-scrollbar {
     }
 }
 
-section {
+// sections //
+.layouts {
+    grid-column: 1/4;
+}
+section, .devBackground {
     scroll-snap-align: start;
     scroll-snap-stop: always;
 }
-section:nth-child(1) {
-    // background: url("../images/Mod3_d_sharma3.png");
-    // background-position: bottom;
-    // background-position-y: 4rem;
-    // background-size: contain;
-    // background-repeat: no-repeat;
-    background: #f5f8fd;// rgb(235, 239, 245);
+#top {
+    background: #f5f8fd;
     border: 2rem white solid;
 
-> div {
-    padding-top: calc(32.5vh - 2rem);
-}
+    > div {
+        padding-top: calc(32.5vh - 2rem);
+    }
 
     @media screen and (max-width: 1100px) {
         border: none;
@@ -81,16 +76,28 @@ section:nth-child(1) {
         }
     }
 }
-.layouts {
-    grid-column: 1/4;
+#developer {
+    background: url("../images/Pixel\ Mockup.svg") 85% 60% / 130vh no-repeat;
+    .links {
+        grid-template-columns: 1.5fr 2fr;
+    }
+}
+.devBackground {
+    background: hsla(160, 84%, 49%, 1);
+    // height: 100%;
+    // width: 100%;
+}
+#artist {
+    background: url("../images/shack_muted_cropped_more.png") 85% 60% / 70vh no-repeat;
+    .links {
+        grid-template-columns: 1fr;
+    }
+}
+.artistBackground {
+    background: #d2dae2;
 }
 
-p {
-    max-width: 60%;
-    // font-size: 1.25rem;
-    // line-height: 1.75rem;
-}
-
+// buttons //
 .scrollButton {
     position: absolute;
     margin-left: auto;
@@ -101,6 +108,7 @@ p {
     @media screen and (max-width: 1100px) {
         right: 0;
         left: 0;
+        bottom: 1rem;
     }
 }
 
@@ -154,6 +162,13 @@ p {
 
     p {
         max-width: 75%;
+    }
+
+    #developer {
+        background-size: 1800px 1000px;
+    }
+    #artist {
+        background-size: 50vh;
     }
 }
 

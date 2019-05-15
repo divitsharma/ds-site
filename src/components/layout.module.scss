@@ -2,9 +2,7 @@ section {
     height: 100vh;
     height: var(--vh);
 }
-section:nth-child(even) {
-    background: rgb(255, 13, 13);
-}
+
 .content {
     margin: 0 auto;
     max-width: 960px;
