@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -201,7 +203,8 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Source Serif Pro', georgia, serif;
+  /* font-family: 'Source Serif Pro', georgia, serif; */
+  font-family: 'PT Mono', monospace;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
