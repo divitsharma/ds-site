@@ -60,7 +60,8 @@ const IndexPage = () => (
             <Layout sectionTitle="available at" id="contact">
                 {/* <p>Don't hesitate to reach out!</p> */}
                 <i class="material-icons">mail_outline</i><a href="mailto:dsharma5095@gmail.com">dsharma5095@gmail.com</a><br/>
-                <i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/divitsharma/" target="_blank">linkedin.com/in/divitsharma</a>
+                <i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/divitsharma/" target="_blank">linkedin.com/in/divitsharma</a><br />
+                <i class="fab fa-github"></i><a href="https://www.github.com/divitsharma" target="_blank">github.com/divitsharma</a><br/>
             </Layout>
 
             {/* <footer>
