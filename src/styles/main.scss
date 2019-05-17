@@ -204,9 +204,12 @@ section, .devBackground {
 }
 
 @media screen and (max-width: 400px) {
-.extraInfo {
-    display: none;
-}
+    .extraInfo {
+        display: none;
+    }
+    p, a {
+        color: black;
+    }
 }
 
 @media screen and (max-height: 600px) {

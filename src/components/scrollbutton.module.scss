@@ -7,4 +7,11 @@
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
     cursor: pointer;
+
+    @media screen and (max-width: 400px) {
+        background: url("../images/outline-keyboard_arrow_down-24px.svg") center / contain no-repeat;
+        opacity: 0.75;
+        color: transparent;
+        border: none;
+    }
 }

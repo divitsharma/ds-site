@@ -40,7 +40,7 @@ const IndexPage = () => (
                     <p>Past work experience includes <a target="_blank" href="https://www.bhvr.com">Behaviour Interactive</a>
                         , <a target="_blank" href="https://www.ford.ca/owners/technology/sync/">Ford Motor Company</a>,
                         and <a target="_blank" href="https://www.autonomoose.net">UWaterloo Autonomoose</a>.
-                        You can help by expanding this list.</p>
+                        </p>
                     <div className="links">
                         <a href="https://www.github.com/divitsharma" target="_blank" className="github" />
                         <a href="https://www.github.com/divitsharma" target="_blank" className="resume">RESUME</a>
