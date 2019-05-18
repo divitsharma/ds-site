@@ -162,9 +162,15 @@ section, .devBackground {
 }
 .links a {
     height: 2rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.links i {
+    margin-top: 5px;
+    font-size: 1.4rem;
 }
 .github {
-    background: url("../images/Github.svg") center / contain no-repeat;
+    background: url("../images/github-brands.svg") center / contain no-repeat;
 }
 .behance {
     background: url("../images/Behance.svg") center / contain no-repeat;
@@ -173,8 +179,7 @@ section, .devBackground {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
-    font-size: 1.25rem;
-    text-align: center;
+    
     padding-top: 0.3rem;
 }
 

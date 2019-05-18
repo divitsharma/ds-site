@@ -43,8 +43,10 @@ const IndexPage = () => {
                 {/* <p className="extraInfo">I'm also a big visual arts and design fanatic, and play cricket and badminton.</p> */}
                 <p className="extraInfo">I'm currently looking for internship opportunities for September 2019.</p>
                 <div className="links">
-                    <a href="https://www.github.com/divitsharma" target="_blank" className="github" rel="noopener noreferrer" />
-                    <a href="https://www.behance.net/divitsharma" target="_blank" className="behance" rel="noopener noreferrer" />
+                    {/* <a href="https://www.github.com/divitsharma" target="_blank" className="github" rel="noopener noreferrer" /> */}
+                    {/* <a href="https://www.behance.net/divitsharma" target="_blank" className="behance" rel="noopener noreferrer" /> */}
+                    <a href="https://www.github.com/divitsharma" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>                    
+                    <a href="https://www.linkedin.com/in/divitsharma/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
                     <a href="https://www.github.com/divitsharma" target="_blank" className="resume" rel="noopener noreferrer">RESUME</a>
                 </div>
             </Layout>
