@@ -1,7 +1,16 @@
+html {
+    scrollbar-width: none;    
+    -ms-overflow-style: none;
+    overflow: auto;
+}
 main {
     height: 100vh;
     overflow-y: scroll;
+    -ms-overflow-style: none;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: mandatory;
     scroll-snap-type: y mandatory;
+    scrollbar-width: none;
 }
 main::-webkit-scrollbar {
     width: 0 !important;
@@ -14,6 +23,7 @@ p {
 }
 
 .sticky {
+    width: 148px;
     width: max-content;
     height: 100vh;
     color: black;
