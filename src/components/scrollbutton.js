@@ -26,7 +26,7 @@ function ScrollPage(e) {
 
 const ScrollButton = ({ className, id }) => {
     return (
-        <a id={id} className={className + ' ' + scrollStyles.scrollButton} onClick={ScrollPage}>
+        <a id={id} className={className + ' ' + scrollStyles.scrollButton} onClick={ScrollPage} href="JavaScript:Void(0)">
             NEXT PAGE
         </a>
     )

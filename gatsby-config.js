@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `Divit Sharma`,
         description: `Divit Sharma is a developer studying computer science at the University of Waterloo.`,
-        author: `@dsharma5095`,
+        author: `@dsharma5095@gmail.com`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
