@@ -61,7 +61,7 @@ const IndexPage = () => {
                         </p>
                     <div className="links">
                         <a href="https://www.github.com/divitsharma" target="_blank" className="github" rel="noopener noreferrer" />
-                        <a href="https://www.github.com/divitsharma" target="_blank" className="resume" rel="noopener noreferrer">RESUME</a>
+                        <a href={Resume} target="_blank" className="resume" rel="noopener noreferrer">RESUME</a>
                     </div>
                 </Layout>
             </div>
