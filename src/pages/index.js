@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ScrollButton from "../components/scrollbutton"
 import HomeButton from "../components/homebutton"
+import Resume from "../files/Resume-DSharma-S19.pdf"
 
 // css
 import "../styles/index.css"
@@ -47,7 +48,7 @@ const IndexPage = () => {
                     {/* <a href="https://www.behance.net/divitsharma" target="_blank" className="behance" rel="noopener noreferrer" /> */}
                     <a href="https://www.github.com/divitsharma" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>                    
                     <a href="https://www.linkedin.com/in/divitsharma/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.github.com/divitsharma" target="_blank" className="resume" rel="noopener noreferrer">RESUME</a>
+                    <a href={Resume} target="_blank" className="resume" rel="noopener noreferrer">RESUME</a>
                 </div>
             </Layout>
 
