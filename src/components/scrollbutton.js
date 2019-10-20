@@ -2,15 +2,17 @@ import React from "react"
 
 import scrollStyles from "./scrollbutton.module.scss"
 
-function ScrollPage(e) {
+export function ScrollPage(e) {
+  // alert("scrolling")
     if (window !== 'undefined') {
         if (document.documentElement.style.getPropertyValue('--scrollButtonVisible') !== 'none') {
             if (typeof document.getElementById("main").scrollBy !== 'undefined')
             {
-                document.getElementById("main").scrollBy({
+              document.getElementById("main").scrollBy({
                 top: Math.max(document.documentElement.clientHeight, window.innerHeight || 0),
                 behavior: 'smooth'
-                });
+              });
+              alert("Scrolling")
             } else {
                 document.getElementById("main").scrollTop = document.getElementById("main").scrollTop + window.innerHeight;
 
