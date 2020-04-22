@@ -17,7 +17,7 @@ function onScroll() {
         // alert(scrollTop1 + " " + height);
         document.getElementById("scrollButton").style.display = "none";
     } else {
-        document.getElementById("scrollButton").style.display = "block";
+        document.getElementById("scrollButton").style.display = "flex";
     }
 }
 
@@ -34,15 +34,13 @@ const IndexPage = () => {
             <h1>I am</h1>
         </div>
 
-        <ScrollButton id="scrollButton" className="scrollButton">
-
-        </ScrollButton>
+        <ScrollButton id="scrollButton"/>
 
         <div className="layouts" id="layouts">
             <Layout sectionTitle="Divit Sharma." id="top">
                 <p>I’m a software developer and designer currently studying Computer Science at the University of Waterloo.</p>
                 {/* <p className="extraInfo">I'm also a big visual arts and design fanatic, and play cricket and badminton.</p> */}
-                <p className="extraInfo">I'm currently looking for internship opportunities for September 2019.</p>
+                <p className="extraInfo">I'm currently looking for internship opportunities for September 2020.</p>
                 <div className="links">
                     {/* <a href="https://www.github.com/divitsharma" target="_blank" className="github" rel="noopener noreferrer" /> */}
                     {/* <a href="https://www.behance.net/divitsharma" target="_blank" className="behance" rel="noopener noreferrer" /> */}
