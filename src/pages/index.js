@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ScrollButton from "../components/scrollbutton"
 import HomeButton from "../components/homebutton"
-import Resume from "../files/Resume-DSharma-S19.pdf"
+import Resume from "../files/Resume-current.pdf"
 
 // css
 import "../styles/index.css"
