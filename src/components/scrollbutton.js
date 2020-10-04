@@ -1,5 +1,4 @@
 import React from "react"
-
 import scrollStyles from "./scrollbutton.module.scss"
 
 function ScrollPage(e) {
@@ -27,8 +26,9 @@ function ScrollPage(e) {
 const ScrollButton = ({ className, id }) => {
     return (
         <a id={id} className={className + ' ' + scrollStyles.scrollButton} onClick={ScrollPage} href="JavaScript:Void(0)">
+            {/* <i className="material-icons">keyboard_arrow_down</i> */}
+            <div/>
             <span>NEXT PAGE</span>
-            <i className="material-icons">keyboard_arrow_down</i>
         </a>
     )
 }

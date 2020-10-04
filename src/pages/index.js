@@ -38,9 +38,9 @@ const IndexPage = () => {
 
         <div className="layouts" id="layouts">
             <Layout sectionTitle="Divit Sharma." id="top">
-                <p>I’m a software developer and designer currently studying Computer Science at the University of Waterloo.</p>
+                <p>I’m a software developer and designer studying Computer Science at the University of Waterloo.</p>
                 {/* <p className="extraInfo">I'm also a big visual arts and design fanatic, and play cricket and badminton.</p> */}
-                <p className="extraInfo">I'm currently looking for internship opportunities for September 2020.</p>
+                <p className="extraInfo">I'm currently looking for new grad opportunities for 2021.</p>
                 <div className="links">
                     {/* <a href="https://www.github.com/divitsharma" target="_blank" className="github" rel="noopener noreferrer" /> */}
                     {/* <a href="https://www.behance.net/divitsharma" target="_blank" className="behance" rel="noopener noreferrer" /> */}
