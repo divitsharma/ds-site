@@ -52,8 +52,8 @@ const IndexPage = () => {
 
             <div className="devBackground">
                 <Layout sectionTitle="a developer." id="developer">
-                    <p>I make apps and games across Linux, Windows and Android.</p>
-                    <p>Past work experience includes <a target="_blank" href="https://www.bhvr.com" rel="noopener noreferrer">Behaviour Interactive</a>
+                    <p>I build games and research self-driving software.</p>
+                    <p>Past work experience includes <a target="_blank" href="https://www.ike.com" rel="noopener noreferrer">Ike Robotics</a>, <a target="_blank" href="https://www.bhvr.com" rel="noopener noreferrer">Behaviour Interactive</a>
                         , <a target="_blank" href="https://www.ford.ca/owners/technology/sync/" rel="noopener noreferrer">Ford Motor Company</a>,
                         and <a target="_blank" href="https://www.autonomoose.net" rel="noopener noreferrer">UWaterloo Autonomoose</a>.
                         </p>
@@ -66,7 +66,7 @@ const IndexPage = () => {
 
             <div className="artistBackground">
                 <Layout sectionTitle="an artist." id="artist">
-                    <p>I like to dabble in visual arts and graphic design once in a while. Check out my profile for some of my works.</p>
+                    <p>I like to dabble in visual art and graphic design once in a while. Check out my profile for some of my works.</p>
                     <div className="links">
                         <a target="_blank" href="https://www.behance.net/divitsharma" className="resume" rel="noopener noreferrer">BEHANCE</a>
                     </div>

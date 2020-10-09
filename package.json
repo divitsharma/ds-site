@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "acorn": "^8.0.3",
     "bl": "^4.0.3",
     "decompress": "^4.2.1",
     "dot-prop": "^5.3.0",
@@ -20,6 +21,7 @@
     "gatsby-transformer-sharp": "^2.5.16",
     "http-proxy": "^1.18.1",
     "jpeg-js": "^0.4.2",
+    "lodash": "^4.17.20",
     "node-fetch": "^2.6.1",
     "node-forge": "^0.10.0",
     "node-sass": "^4.14.1",
