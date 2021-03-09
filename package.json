@@ -9,7 +9,7 @@
     "bl": "^4.0.3",
     "decompress": "^4.2.1",
     "dot-prop": "^5.3.0",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "gatsby": "^2.24.67",
     "gatsby-image": "^2.4.20",
     "gatsby-plugin-manifest": "^2.4.33",
